@@ -1,0 +1,23 @@
+#def(vector_array)(
+    {
+        @vec(1,0,1)   @vec(0,0,1)   @vec(-1,0,1)
+        @vec(1,0,0)                 @vec(-1,0,0)
+        @vec(1,0,-1)  @vec(0,0,-1)  @vec(-1,0,-1)
+    }
+)
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+{
+    Additive Distillation
+    Break Block
+}
+
+$vector_array
+
+Thoth's Gambit
+{@str(Smashing!)} >>
+Reveal
