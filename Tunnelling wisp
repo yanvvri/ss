@@ -1,0 +1,212 @@
+//hex for the wisp
+{
+    {
+        <offset list for cube around wisp>
+        <"ABORT"> //to halt wisp if need be
+    }
+    Flock's Disintegration
+    Gemini Decomposition
+    Whisper Reflection
+    Equality Distillation
+    Jester's Gambit
+    Listener's Reflection
+    Equality Distillation
+    Disjunction Distillation
+    {
+        Identity Reflection
+        Consume Wisp
+    }
+    Vacant Reflection
+    Augur's Exaltation
+    Hermes' Gambit
+    //check for non-air blocks, break them
+    {
+        Identity Reflection
+        Compass' Purification
+        Additive Distillation
+        Gemini Decomposition
+        Sorter's Purification
+        Scrivener's Purification
+        {
+            //breaking blacklist
+            <"Air,Cave Air,Void Air,Water,Lava,Milk,Budding Amethyst,Bedrock,Conjured Light">
+        }
+        Flock's Disintegration
+        Comma Reflection
+        Separation Distillation
+        Jester's Gambit
+        Locator's Distillation
+        Numerical Reflection: -1
+        Equality Distillation
+        {
+            Gemini Decomposition
+            Break Block
+            //check for gravity blocks above the tunnel, break them and conjure blocks in their place
+            Gemini Decomposition
+            Vector Disintegration
+            Bookkeeper's Gambit: v-v
+            Identity Reflection
+            Compass' Purification
+            Vector Disintegration
+            Bookkeeper's Gambit: v-v
+            Maximus Distillation
+            {
+                Vector Reflection +Y
+                Additive Distillation
+                Gemini Decomposition
+                Nullary Reflection
+                Inequality Distillation
+                {
+                    Gemini Decomposition
+                    Sorter's Purification
+                    Scrivener's Purification
+                    {
+                        //gravity block whitelist
+                        <"Gravel,Sand,Red Sand">
+                    }
+                    Flock's Disintegration
+                    Comma Reflection
+                    Separation Distillation
+                    Jester's Gambit
+                    Locator's Distillation
+                    Numerical Reflection: -1
+                    Inequality Distillation
+                    {
+                        Gemini Decomposition
+                        Break Block
+                        Conjure Block
+                    }
+                    {
+                        Bookkeeper's Gambit: v
+                    }
+                    Flock's Disintegration
+                    Augur's Exaltation
+                    Hermes' Gambit
+                }
+                {
+                    Bookkeeper's Gambit: v
+                }
+                Flock's Disintegration
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            {
+                Bookkeeper's Gambit: v
+            }
+            Flock's Disintegration
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {
+            Bookkeeper's Gambit: v
+        }
+        Flock's Disintegration
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+
+    //check ravenmind for position to illuminate
+    Muninn's Reflection
+    Gemini Decomposition
+    Nullary Reflection
+    Inequality Distillation
+    {
+        Gemini Decomposition
+        Lamplighter's Purification
+        Numerical Reflection: 2
+        Minimus Distillation II
+        {
+            Conjure Light
+            Bookkeeper's Gambit: v
+        }
+        Flock's Disintegration
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        Bookkeeper's Gambit: v
+    }
+    Flock's Disintegration
+    Augur's Exaltation
+    Hermes' Gambit
+
+    //add downward raycast result to ravenmind
+    Identity Reflection
+    Compass' Purification
+    Vector Reflection -Y
+    Architect's Distillation
+    Gemini Decomposition
+    Nullary Reflection
+    Inequality Distillation
+    {
+        Bookkeeper's Gambit: -
+        Vector Reflection +Y
+        Additive Distillation
+    }
+    Speaker's Decomposition
+    Augur's Exaltation
+    Hermes' Gambit
+    Huginn's Gambit
+    {
+        //placeholder
+        Bookkeeper's Gambit: --
+    }
+    Flock's Disintegration
+    Identity Reflection
+    Compass' Purification
+    Additive Distillation
+    Pathfinder's Gambit
+    Numerical Reflection: 5
+    Delay Wisp
+    Flock's Reflection
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+}
+//insert direction vector - look dir if standing, inverted raycast normal if sneaking
+Gemini Decomposition
+{
+    Bookkeeper's Gambit: --
+}
+Flock's Disintegration
+Locator's Distillation
+Mind's Reflection
+Stadiometer's Purification
+Numerical Reflection: 1.5
+Maximus Distillation
+{
+    Mind's Reflection
+    Alidade's Purification
+    Surgeon's Exaltation
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Numerical Reflection: 2
+    Multiplicative Distillation
+    Additive Distillation
+}
+{
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Architect's Distillation
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    Surgeon's Exaltation
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Dioscuri Gambit
+    Archer's Distillation
+    Rotation Gambit II
+    Architect's Distillation
+    Additive Distillation
+}
+Augur's Exaltation
+Hermes' Gambit
+Numerical Reflection: 100
+Summon Cyclic Wisp
