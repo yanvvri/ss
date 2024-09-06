@@ -1,0 +1,28 @@
+Huginn's Gambit
+{
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+    Summon Greater Sentinel
+    {
+        Locate Sentinel
+        Numerical Reflection: 10
+        Explosion
+        Locate Sentinel
+        Mind's Reflection
+        Alidade's Purification
+        Numerical Reflection: 1.25
+        Multiplicative Distillation
+        Additive Distillation
+        Summon Greater Sentinel
+    }
+    Muninn's Reflection
+    Numerical Reflection: 1
+    Additive Distillation
+    Gemini Gambit
+    Muninn's Reflection
+    Flock's Gambit
+    Thoth's Gambit
+}
